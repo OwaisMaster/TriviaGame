@@ -1,0 +1,72 @@
+
+#title {
+    margin: 15px 15px 25px 15px;
+    padding: 5px 5px 5px 5px;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(192, 42, 42), 0 0 20px rgb(228, 15, 15), 0 0 30px #0049e6, 0 0 40px #0049e6, 0 0 50px #0049e6, 0 0 60px #0049e6, 0 0 70px #0049e6;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(240, 10, 10), 0 0 30px #4dff5c, 0 0 40px #4d7cff, 0 0 50px #4d7cff, 0 0 60px #4d7cff, 0 0 70px #4d7cff, 0 0 80px #4d7cff;
+    }
+  }
+
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+#startButton {
+    font-size: 20px;
+    -webkit-animation: glowButton 0.3s ease-in-out infinite alternate;
+    -moz-animation: glowButton 0.3s ease-in-out infinite alternate;
+    animation: glowButton 0.3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glowButton {
+    from {
+        text-shadow: 0 0 10px rgb(101, 95, 179), 0 0 20px rgb(13, 228, 67), 0 0 30px rgb(13, 228, 67), 0 0 40px rgb(13, 228, 67), 0 0 50px rgb(13, 228, 67), 0 0 60px rgb(13, 228, 67), 0 0 70px rgb(13, 228, 67);
+      }
+      
+      to {
+        text-shadow: 0 0 20px rgb(238, 228, 228), 0 0 30px #4dff5c, 0 0 40px #4dff5c, 0 0 50px #4dff5c, 0 0 60px #4dff5c, 0 0 70px #4dff5c, 0 0 80px #4dff5c;
+      }
+    }
+#gameOver-container {
+    line-height: 75px;
+}
+
+#title {
+    margin: 15px 15px 25px 15px;
+    padding: 5px 5px 5px 5px;
+    /* background-color: rgba(38, 92, 136, 0.274); */
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#timer {
+    padding: 5px 5px 10px 5px;
+}
+
+#eachButton {
+    margin: 10px 10px 10px 10px;
+}
+
+#gamedone {
+    font-weight: bold;
+    font-size: 45px;
+    margin: -10 0 10px;
+}
+
+#score {
+    font-size: 30px; 
+}
