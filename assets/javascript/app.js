@@ -180,6 +180,8 @@ function gameOver() {
         $('#incorrect').text("Incorrect: " + incorrectAnswers);
         $('#notAnswered').text("Not Answered: " + notAnswered);
         document.getElementById("gameOver").style.display = "block";
+        document.getElementById('jumbotron').style.display = "none";
+
     }
 
 }
